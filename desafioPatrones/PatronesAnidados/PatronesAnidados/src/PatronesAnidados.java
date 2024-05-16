@@ -31,7 +31,7 @@ public class PatronesAnidados {
                 for (int j = 1; j <= num; j++) {
                     System.out.print("*");
                 }
-            } else { // Filas intermedias
+            } else {
                 System.out.print("*");
                 for (int j = 1; j < num - 1; j++) {
                     System.out.print(" ");
