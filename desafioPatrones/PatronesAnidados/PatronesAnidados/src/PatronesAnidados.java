@@ -44,59 +44,59 @@ public class PatronesAnidados {
     }
 
 
-        public static void mostrarPatron2(int num){
-            for (int i = 1; i <= num; i++) {
-                if (i == 1 || i == num) {
-                    for (int j = 1; j <= num; j++) {
-                        System.out.print("*");
-                    }
-                } else {
-                    for (int j = 1; j <= num - i; j++) {
-                        System.out.print(" ");
-                    }
+    public static void mostrarPatron2(int num){
+        for (int i = 1; i <= num; i++) {
+            if (i == 1 || i == num) {
+                for (int j = 1; j <= num; j++) {
                     System.out.print("*");
                 }
-                System.out.println();
-            }
-            System.out.println("\n--------");
-        }
-
-        public static void mostrarPatron3( int num){
-            for (int i = 0; i < num; i++) {
-                for (int j = 0; j < num; j++) {
-                    if (i == j || i + j == num - 1 || (num % 2 == 0 && (i == num / 2 - 1 || i == num / 2) && (j == num / 2 - 1 || j == num / 2))) {
-                        System.out.print("x");
-                    } else {
-                        System.out.print(" ");
-                    }
-                }
-                System.out.println();
-            }
-            System.out.println("\n--------");
-        }
-
-        public static void mostrarPatron4( int num){
-            for (int i = 0; i < num; i++) {
-                if (i == 0) {
-                    for (int j = 0; j < num; j++) {
-                        System.out.print("*");
-                    }
-                } else if (i == num - 1) {
+            } else {
+                for (int j = 1; j <= num - i; j++) {
                     System.out.print(" ");
-                    for (int j = 1; j <= num; j++) {
-                        System.out.print("*");
-                    }
+                }
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println("\n--------");
+    }
+
+    public static void mostrarPatron3( int num){
+        for (int i = 0; i < num; i++) {
+            for (int j = 0; j < num; j++) {
+                if (i == j || i + j == num - 1 || (num % 2 == 0 && (i == num / 2 - 1 || i == num / 2) && (j == num / 2 - 1 || j == num / 2))) {
+                    System.out.print("x");
                 } else {
                     System.out.print(" ");
-                    for (int j = 1; j < num; j++) {
-                        System.out.print("*");
-                    }
                 }
-                System.out.println();
             }
-            System.out.println("\n--------");
+            System.out.println();
         }
+        System.out.println("\n--------");
     }
+
+    public static void mostrarPatron4( int num){
+        for (int i = 0; i < num; i++) {
+            if (i == 0) {
+                for (int j = 0; j < num; j++) {
+                    System.out.print("*");
+                }
+            } else if (i == num - 1) {
+                System.out.print(" ");
+                for (int j = 1; j <= num; j++) {
+                    System.out.print("*");
+                }
+            } else {
+                System.out.print(" ");
+                for (int j = 1; j < num; j++) {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("\n--------");
+    }
+}
 
 
 
