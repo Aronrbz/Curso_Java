@@ -45,6 +45,11 @@ public class Archivo {
         }
 
         File archivo = new File(directorio + "/" + nombreArchivo);
+        if (archivo.exists()) {
+            archivo.delete();
+            System.out.println("Archivo existente eliminado");
+        }
+
         try {
             if (archivo.createNewFile()) {
                 System.out.println("Archivo creado");
