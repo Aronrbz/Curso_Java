@@ -1,0 +1,31 @@
+Clase Taxi
+
+Atributos:
+color: String: Color del taxi.
+patente: String: Patente del taxi.
+valorPasaje: int: Valor del pasaje del taxi.
+Métodos:
+pagarPasaje(pasaje: int): void: Método para pagar el pasaje.
+
+
+Clase Bus
+
+Atributos:
+color: String: Color del bus.
+patente: String: Patente del bus.
+cantidadAsientos: int: Cantidad de asientos en el bus.
+
+Métodos:
+asientosDisponibles(): int: Retorna la cantidad de asientos disponibles en el bus.
+
+
+Clase MiniBus
+
+Atributos:
+color: String: Color del minibús.
+patente: String: Patente del minibús.
+tipoViaje: String: Tipo de viaje
+cantidadAsientos: int: Cantidad de asientos en el minibús.
+
+Métodos:
+imprimeBus(): void: Imprime la información del bus.

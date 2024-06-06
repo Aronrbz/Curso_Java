@@ -1,0 +1,30 @@
+Clase Cliente
+
+Atributos:
+rut: String: RUT del cliente.
+nombre: String: Nombre del cliente.
+edad: int: Edad del cliente.
+
+------------------------------------------------------
+
+Clase Vendedor
+
+Atributos:
+rut: String: RUT del vendedor.
+nombre: String: Nombre del vendedor.
+direccion: String: Dirección del vendedor.
+
+------------------------------------------------------
+
+Clase Tienda
+
+Atributos:
+vendedor: Vendedor: Vendedor asociado a la tienda.
+cliente: Cliente: Cliente asociado a la tienda.
+nombreTienda: String: Nombre de la tienda.
+stock: int: Stock de productos en la tienda.
+
+Metodo:
+existeStock(): String: Retorna un mensaje con la cantidad de stock.
+
+------------------------------------------------------
