@@ -1,0 +1,4 @@
+Patente del Vehiculo: abcd88
+Edad del Cliente: 35
+Fecha de la Venta: 06101977
+Nombre de Venta: aca
