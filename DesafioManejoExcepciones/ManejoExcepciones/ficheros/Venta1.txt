@@ -1,0 +1,4 @@
+Patente del Vehiculo: ABC123
+Edad del Cliente: 30
+Fecha de la Venta: 01102020
+Nombre de Venta: Venta1

@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Vehiculo creado: " + vehiculo.getColor() + ", " + vehiculo.getPatente());
 
 
-        // crear Taxi, probar metodo creado en la clase 
+        // crear Taxi, probar metodo creado en la clase
         Taxi taxi = new Taxi(1000);
         System.out.println("Valor del pasaje: " + taxi.getValorPasaje());
         int vuelto = taxi.pagarPasaje(1500);
