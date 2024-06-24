@@ -3,10 +3,11 @@ package cl.praxis.utilidades;
 import cl.praxis.modelo.Cliente;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
-public class ExportadorCsv {
-    public void exportar(String fileName, ArrayList<Cliente> listaClientes) {
+public class ExportadorCsv extends Exportador {
+    @Override
+    public void exportar(String fileName, List<Cliente> listaClientes) {
         try (FileWriter writer = new FileWriter(fileName + ".csv")) {
             for (Cliente cliente : listaClientes) {
                 writer.append(cliente.getRunCliente()).append(",");

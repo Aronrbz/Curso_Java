@@ -10,7 +10,6 @@ import cl.praxis.utilidades.ArchivoServicio;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class Menu {
     private ClienteServicio clienteServicio = new ClienteServicio();
     private ArchivoServicio archivoServicio = new ArchivoServicio();

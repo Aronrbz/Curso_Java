@@ -2,7 +2,6 @@ package cl.praxis.utilidades;
 
 import cl.praxis.modelo.Cliente;
 import cl.praxis.modelo.CategoriaEnum;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ImportadorCsv {
-
     public List<Cliente> importar(String fileName) {
         List<Cliente> clientes = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
