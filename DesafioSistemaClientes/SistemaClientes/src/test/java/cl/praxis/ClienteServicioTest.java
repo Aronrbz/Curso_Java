@@ -1,4 +1,4 @@
-package cl.praxis.test;
+package cl.praxis;
 
 import cl.praxis.servicio.ClienteServicio;
 import cl.praxis.modelo.Cliente;

@@ -156,7 +156,7 @@ public class Menu {
         for (int i = 0; i < animacion.length; i++) {
             System.out.print("\rSaliendo ... " + animacion[i]);
             try {
-                Thread.sleep(200); // Pausar por 200 milisegundos
+                Thread.sleep(200); // Pausa
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
