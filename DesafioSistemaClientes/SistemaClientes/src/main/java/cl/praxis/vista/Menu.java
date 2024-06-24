@@ -130,13 +130,11 @@ public class Menu {
     }
 
     public void importarDatos() {
-        System.out.print("Ingrese la ruta del archivo CSV: ");
-        String ruta = scanner.nextLine();
-        List<Cliente> clientes = archivoServicio.cargarDatos(ruta);
+        List<Cliente> clientes = archivoServicio.cargarDatos(fileName1);
         for (Cliente cliente : clientes) {
             clienteServicio.agregarCliente(cliente);
         }
-        System.out.println("Datos importados correctamente.");
+        System.out.println("Datos importados correctamente desde " + fileName1);
     }
 
     public void exportarDatos() {
